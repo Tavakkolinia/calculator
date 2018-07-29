@@ -1,15 +1,23 @@
 import React, { Component } from "react";
+import Frame from './frame';
 import '../styles/app.scss';
 
 class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+      
+      
+        };
+    }
+      
     render() {
         return (
-            <div>
-                <h1>My Great React App</h1>
-            </div>
+            <Frame />
         );
+
     }
 }
-
+      
 export default App;
 
